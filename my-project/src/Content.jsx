@@ -6,30 +6,32 @@ return (
         <h3 className="text-2xl ">SO, YOU WANT TO TRAVEL</h3>
         <h1 className="text-8xl text-white pb-8">SPACE</h1>
         <p className="pb-16 text-balance text-xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
-        <div className="w-40 h-40  bg-white flex justify-center items-center rounded-full mx-auto mb-28 font-semibold text-2xl text-slate-700 ">EPLORE</div>
+        <div className="w-44 h-44  bg-white flex justify-center items-center rounded-full mx-auto mb-32 font-semibold text-2xl text-slate-700 ">EPLORE</div>
     </div>
-    <div>
+    <div
+    className="px-4  text-white  w-full bg-[url('/src/images/background2.jpg')]"
+    >
         <div>
-          <h3><span>01</span>PICK YOUR DESTINATION</h3>
-          <img src="/src/images/image1.jpg" alt="" />
+          <h3 className="text-2xl py-4"><span className="text-gray-500 mr-2 font-bold">01</span>PICK YOUR DESTINATION</h3>
+          <img src="src/images/image1.png"  alt="mass image" className="h-4/5 w-4/5 mx-auto" />
         </div>
         <div>
-          <ul> 
+          <ul className="flex justify-between  mx-10 mb-10  text-slate-400 text-xl"> 
             <li>MOON</li>
-            <li>MARS</li>
+            <li className="border-b-2 border-white ">MARS</li>
             <li>EUROPA</li>
             <li>TITAN</li>
           </ul>
-          <h1>MARS</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint labore quidem nihil! Ex odit sed fugit esse excepturi temporibus!</p>
-          <div>
+          <h1 className="text-8xl text-white pb-8">MARS</h1>
+          <p className=" text-slate-400 text-xl text-wrap border-b-2 border-slate-400 pb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint labore quidem nihil! Ex odit sed fugit esse except dolor sit amet consectetur adipisicing elit. Dolorum corporis cumque dignissimos perspiciatis possimus fuga quisquam! Temporibus nobis laboriosam quis.</p>
+          <div className="flex justify-between w-4/5 mt-5">
             <div>
-              <h3>AVG. DISTANCE</h3>
-              <h2>225 MILL.KM</h2>
+              <h3 className="text-slate-400 text-sm">AVG. DISTANCE</h3>
+              <h2 className="text-3xl mt-2 mb-4">225 MILL.KM</h2>
             </div>
             <div>
-              <h3>EST. TRAVEL TIME</h3>
-              <h2>9 MONTHS</h2>
+              <h3 className="text-slate-400 text-sm">EST. TRAVEL TIME</h3>
+              <h2 className="text-3xl mt-2 mb-4">9 MONTHS</h2>
             </div>
             
 
