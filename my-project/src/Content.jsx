@@ -2,11 +2,13 @@ function Content() {
 return (
   <>
     <div
-    className=" text-center space-y-6 p-8 md:p-16 md:px-52 font-semiboldbold text-lg  text-slate-300 bg-[url('/src/images/background1.jpg')]">
-        <h3 className="text-2xl ">SO, YOU WANT TO TRAVEL</h3>
+    className=" text-center space-y-6 p-8 md:p-16 md:px-52  font-semiboldbold text-lg  text-slate-300 bg-[url('/src/images/background1.jpg')] bg-no-repeat bg-center bg-cover xl:grid xl:grid-cols-2">
+      <div className="xl:text-left">
+        <h3 className="text-2xl xl:mt-44  ">SO, YOU WANT TO TRAVEL</h3>
         <h1 className="text-8xl md:text-9xl text-white pb-8">SPACE</h1>
         <p className="pb-16 text-balance text-xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
-        <div className="w-44 h-44 md:w-56 md:h-56  bg-white flex justify-center items-center rounded-full mx-auto mb-32 font-semibold text-2xl md:text-3xl text-slate-700 ">EPLORE</div>
+        </div>
+        <div className="w-44 h-44 md:w-56 md:h-56  bg-white flex justify-center items-center rounded-full mx-auto mb-32 font-semibold text-2xl md:text-3xl text-slate-700 xl:mt-44">EPLORE</div>
     </div>
     <div
     className="px-4 md:px-10 text-white  w-full bg-[url('/src/images/background2.jpg')]"

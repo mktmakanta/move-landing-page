@@ -4,10 +4,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" bg-blue-500 text-white">
+    <nav className=" bg-blue-500 text-white xl:bg-[url('/src/images/background1.jpg')]  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between  h-20">
-          <div className="flex justify-between w-full md:hidden">
+        <div className="flex items-center justify-between  h-20 ">
+          <div className="flex justify-between w-full md:hidden ">
             <h2 className='text-2xl font-bold'>Space</h2>
             <button 
               onClick={() => setIsOpen(!isOpen)}
