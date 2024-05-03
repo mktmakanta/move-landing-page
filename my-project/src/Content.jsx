@@ -2,36 +2,40 @@ function Content() {
 return (
   <>
     <div
-    className=" text-center space-y-6 p-8 md:p-16 md:px-52  font-semiboldbold text-lg  text-slate-300 bg-[url('/src/images/background1.jpg')] bg-no-repeat bg-center bg-cover xl:grid xl:grid-cols-2">
-      <div className="xl:text-left">
-        <h3 className="text-2xl xl:mt-44  ">SO, YOU WANT TO TRAVEL</h3>
-        <h1 className="text-8xl md:text-9xl text-white pb-8">SPACE</h1>
-        <p className="pb-16 text-balance text-xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
+    className=" text-center space-y-6 p-8 md:p-16 md:px-52  xl:px-44 xl:h-screen font-semiboldbold text-lg  text-slate-300 bg-[url('/src/images/background1.jpg')] bg-no-repeat bg-center bg-cover xl:flex justify-center items-center">
+      <div className=" xl:grid xl:grid-cols-2 justify-center xl:h-2/4">
+      <div className="xl:text-left xl:flex  flex-col justify-center ">
+        <h3 className="text-2xl xl:text-3xl xl:mb-5 ">SO, YOU WANT TO TRAVEL</h3>
+        <h1 className="text-8xl md:text-9xl xl:font-bold text-white pb-8 xl:mb-8">SPACE</h1>
+        <p className="pb-16 text-balance text-xl xl:text-2xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
         </div>
-        <div className="w-44 h-44 md:w-56 md:h-56  bg-white flex justify-center items-center rounded-full mx-auto mb-32 font-semibold text-2xl md:text-3xl text-slate-700 xl:mt-44">EPLORE</div>
+        <div className="xl:flex items-end">
+        <div className="w-44 h-44 md:w-56 md:h-56 xl:h-64 xl:w-64 bg-white flex justify-center items-center rounded-full mx-auto mb-32 xl:mb-20 font-semibold text-2xl md:text-3xl text-slate-700 ">EPLORE</div>
+        </div>
+      </div>
     </div>
     <div
-    className="px-4 md:px-10 text-white  w-full bg-[url('/src/images/background2.jpg')]"
+    className="px-4 md:px-10 xl:px-20 text-white  w-full bg-[url('/src/images/background2.jpg')] xl:h-screen xl:grid grid-cols-3 gap-0"
     >
-        <div>
-          <h3 className="text-2xl py-4 md:text-3xl md:pt-10"><span className="text-gray-500 mr-2 font-bold">01</span>PICK YOUR DESTINATION</h3>
-          <img src="src/images/image1.png"  alt="mass image" className="h-3/5 w-3/5 mx-auto" />
+        <div className="col-span-2 xl:p-0">
+          <h3 className="text-2xl py-4 md:text-3xl md:pt-10 xl:pt-32"><span className="text-gray-500 mr-2 font-bold">01</span>PICK YOUR DESTINATION</h3>
+          <img src="src/images/image1.png"  alt="mass image" className="h-3/5 w-3/5 mx-auto  xl:h-98 xl:w-98 xl:mt-20" />
         </div>
-        <div>
-          <ul className="flex justify-between  mx-10 md:mx-44 mb-10  text-slate-400 text-xl md:text-2xl"> 
+        <div className="col-span-1">
+          <ul className="flex justify-between xl:mt-64 mx-10 md:mx-44 xl:mx-0 mb-10  text-slate-400 text-xl md:text-2xl"> 
             <li>MOON</li>
             <li className="border-b-2 border-white ">MARS</li>
             <li>EUROPA</li>
             <li>TITAN</li>
           </ul>
           <h1 className="text-8xl  text-white pb-8">MARS</h1>
-          <p className=" text-slate-400 text-xl md:text-2xl text-wrap border-b-2 border-slate-400 pb-20 md:pb-44">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint labore quidem nihil! Ex odit sed fugit esse except dolor sit amet consectetur adipisicing elit. Dolorum corporis cumque dignissimos perspiciatis possimus fuga quisquam! Temporibus nobis laboriosam quis.</p>
-          <div className="flex justify-between w-3/5 mt-5">
+          <p className=" text-slate-400 text-xl md:text-2xl text-wrap border-b-2 border-slate-500 pb-20 md:pb-44 xl:pb-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint labore quidem nihil! Ex odit sed fugit esse except dolor sit amet consectetur adipisicing elit. Dolorum corporis cumque dignissimos perspiciatis possimus fuga quisquam! Temporibus nobis laboriosam quis.</p>
+          <div className="flex justify-between w-3/5 xl:w-full xl:justify-start gap-16 mt-5">
             <div>
               <h3 className="text-slate-400 text-sm">AVG. DISTANCE</h3>
               <h2 className="text-3xl mt-2 mb-4">225 MILL.KM</h2>
             </div>
-            <div className="pb-24 md:pb-10">
+            <div className="pb-24 md:pb-10 ">
               <h3 className="text-slate-400 text-sm">EST. TRAVEL TIME</h3>
               <h2 className="text-3xl mt-2 mb-4">9 MONTHS</h2>
             </div>

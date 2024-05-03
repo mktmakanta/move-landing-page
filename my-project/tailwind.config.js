@@ -5,7 +5,17 @@ content: [
     "./src/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '96': '36rem', 
+        '98': '48rem', 
+      },
+      height: {
+        '97': '36rem', 
+        '98': '48rem', 
+      },
+    
+    },
   },
   plugins: [],
 }
