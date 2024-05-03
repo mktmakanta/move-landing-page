@@ -44,46 +44,48 @@ return (
 
         </div>
     </div>
-    <div className="  px-4 bg-[url('/src/images/background3.jpg')]  bg-cover bg-center text-white text-center space-y-10 md:space-y-16 md:px-10">
-        <div className="">
-          <h3 className="text-2xl py-4 text-left md:text-3xl"><span className="text-gray-500 mr-2 font-bold">02</span>MEET YOUR CREW</h3>
-          <div className="md:mt-6 ">
+    <div className="  px-4 bg-[url('/src/images/background3.jpg')]  bg-cover bg-center text-white text-center space-y-10 md:space-y-16 md:px-10 xl:px-32 xl:h-screen xl:flex ">
+        <div className=" xl:w-5/12">
+          <h3 className="text-2xl py-4 text-left md:text-3xl xl:py-32"><span className="text-gray-500 mr-2 font-bold">02</span>MEET YOUR CREW</h3>
+          <div className="md:mt-6 xl:text-left "> 
             <h3 className="text-slate-600 text-2xl my-2 md:my-4 md:text-3xl">FLIGHT ENGINEER</h3>
-            <h2 className="text-3xl text-slate-300 mb-5 md:text-5xl">ANOUSHEH ANSARI</h2>
-            <p className="text-gray-400 text-lg md:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum eaque quo animi facilis perferendis molestiae, odio aut iste. Fuga, optio ratione? Veniam, voluptatem quae?</p>
+            <h2 className="text-3xl text-slate-300 mb-5 md:text-5xl ">ANOUSHEH ANSARI</h2>
+            <p className="text-gray-400 text-lg md:text-3xl xl:my-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum eaque quo animi facilis perferendis molestiae, odio aut iste. Fuga, optio ratione? Veniam, voluptatem quae?</p>
           </div>
-          <div className="flex justify-center my-5 ">
+          <div className="flex justify-center xl:justify-start xl:mt-32 my-5 ">
             <div className="h-3 w-3 bg-slate-600 rounded-full mx-1"></div>
             <div className="h-3 w-3 bg-slate-600 rounded-full mx-1"></div>
             <div className="h-3 w-3 bg-slate-600 rounded-full mx-1"></div>
-            <div className="h-3 w-3 bg-slate-100 rounded-full mx-1"></div>
+            <div className="h-3 w-3 bg-slate-100 rounded-full mx-1 "></div>
           </div>
         </div>
-        <div>
-          <img src="src/images/image2.png" alt="" />
+        <div className="flex items-end">
+          <img src="src/images/image2.png" alt="" className="xl:h-98 xl:w-100"  />
         </div>
 
 
     </div>
-    <div className="bg-[url('/src/images/background4.jpg')]  bg-cover bg-center text-white ">
-        <h3 className="  text-2xl py-4 text-left md:text-3xl"><span className="text-gray-500 mr-2 font-bold">03</span>SPACE LAUNCH 101</h3>
-      <div>
-        <img src="src/images/image3.jpg" alt=""  className="h-3/6 md:h-2/5 w-full"/>
+    <div className="bg-[url('/src/images/background4.jpg')]  bg-cover bg-center  text-white  xl:h-screen xl:px-20 xl:pr-0">
+        <h3 className="  text-2xl py-4 text-left md:text-3xl xl:pt-20"><span className="text-gray-500 mr-2 font-bold xl:px-10 ">03</span>SPACE LAUNCH 101</h3>
+      <div className="xl:flex flex-row-reverse">
+      <div className=" flex items-center">
+        <img src="src/images/image3.jpg" alt=""  className="h-3/6 md:h-2/5 w-full xl:w-96 xl:h-4/5 xl:my-auto"/>
       </div>
-      <div className="md:px-10">
+      <div className="md:px-10 xl:w-3/5 xl:h-3/5  xl:flex items-center justify-between xl:pt-32 xl:space-x-7 ">
         
-          <ul className="flex justify-center ">
+          <ul className="flex justify-center xl:flex-col xl:space-y-16">
             <li className="h-16 w-16 mb-3 mx-3 mt-7 text-2xl rounded-full bg-white text-black flex justify-center items-center border border-pink-700 ">1</li>
             <li className="h-16 w-16 mb-3 mx-3 mt-7 text-xl rounded-full text-white flex justify-center items-center border border-pink-700">2</li>
             <li className="h-16 w-16 mb-3 mx-3 mt-7 text-xl rounded-full  text-white flex justify-center items-center border border-pink-700">3</li>
           </ul>
-          <div className="p-4 md:text-3xl">
+          <div className="p-4 md:text-3xl ">
             <h5 className="text-slate-400 md:mt-10">THE TECHNOLOGY</h5>
             <h2 className="text-4xl md:my-3 md:text-6xl">LAUNCH VEHICLE</h2>
-            <p className="text-slate-400 pb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus aliquam itaque excepturi quaerat qui expedita nemo, cum ipsam, aut dolore sapiente. Deserunt ea iure vero culpa esse non blanditiis cum! Quae nam perspiciatis doloremque quas.</p>
+            <p className="text-slate-400 pb-16 xl:pt-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus aliquam itaque excepturi quaerat qui expedita nemo, cum ipsam, aut dolore sapiente. Deserunt ea iure vero culpa esse non blanditiis cum! Quae nam perspiciatis doloremque quas.</p>
           </div>
       
       </div>
+        </div>
     </div>
   </>
 )
