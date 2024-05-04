@@ -10,7 +10,7 @@ return (
         <p className="pb-16 text-balance text-xl xl:text-2xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
         </div>
         <div className="xl:flex items-end">
-        <div className="w-44 h-44 md:w-56 md:h-56 xl:h-64 xl:w-64 bg-white flex justify-center items-center rounded-full mx-auto mb-32 xl:mb-20 font-semibold text-2xl md:text-3xl text-slate-700 ">EPLORE</div>
+        <div className="w-44 h-44 md:w-56 md:h-56 xl:h-64 xl:w-64 bg-white flex justify-center items-center rounded-full mx-auto mb-32 xl:mb-20 font-semibold text-2xl md:text-3xl text-slate-700 xl:animate-slideSlow">EPLORE</div>
         </div>
       </div>
     </div>
