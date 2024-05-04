@@ -42,10 +42,10 @@ const Navbar = () => {
         <div>
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 w-full text-2xl flex flex-col items-center rounded-full">
-            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400">Home</a>
-            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400">Destination</a>
-            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400">Our crew</a>
-            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400">Services</a>
+            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400 animate-slideFastest">Home</a>
+            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400 animate-slideFaster">Destination</a>
+            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400 animate-slideFast">Our crew</a>
+            <a href="#" className="block px-24 rounded-full py-2  font-medium text-white hover:text-white hover:bg-blue-400 animate-slideMedium">Services</a>
           </div>
         </div>
         </div>

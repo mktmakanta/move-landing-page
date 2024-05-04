@@ -6,7 +6,7 @@ return (
       <div className=" xl:grid xl:grid-cols-2 justify-center xl:h-2/4">
       <div className="xl:text-left xl:flex  flex-col justify-center ">
         <h3 className="text-2xl xl:text-3xl xl:mb-5 ">SO, YOU WANT TO TRAVEL</h3>
-        <h1 className="text-8xl md:text-9xl xl:font-bold text-white pb-8 xl:mb-8">SPACE</h1>
+        <h1 className="text-8xl md:text-9xl xl:font-bold text-white pb-8 xl:mb-8 animate-slideFast">SPACE</h1>
         <p className="pb-16 text-balance text-xl xl:text-2xl">Lets Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus ut recusandae dolores placeat labore, molestias molestiae aliquam, error adipisci inventore explicabo optio? Obcaecati doloremque voluptatum debitis, veniam est necessitatibus.</p>
         </div>
         <div className="xl:flex items-end">
@@ -15,11 +15,11 @@ return (
       </div>
     </div>
     <div
-    className="px-4 md:px-10 xl:px-20 text-white  w-full bg-[url('/src/images/background2.jpg')] xl:h-screen xl:grid grid-cols-3 gap-0"
+    className="px-4 md:px-10 xl:px-20 text-white  w-full bg-[url('/src/images/background2.jpg')] xl:h-screen xl:grid grid-cols-3 gap-0 "
     >
         <div className="col-span-2 xl:p-0">
           <h3 className="text-2xl py-4 md:text-3xl md:pt-10 xl:pt-32"><span className="text-gray-500 mr-2 font-bold">01</span>PICK YOUR DESTINATION</h3>
-          <img src="src/images/image1.png"  alt="mass image" className="h-3/5 w-3/5 mx-auto  xl:h-98 xl:w-98 xl:mt-20" />
+          <img src="src/images/image1.png"  alt="mass image" className="h-3/5 w-3/5 mx-auto  xl:h-98 xl:w-98 xl:mt-20 animate-slideMedium " />
         </div>
         <div className="col-span-1">
           <ul className="flex justify-between xl:mt-64 mx-10 md:mx-44 xl:mx-0 mb-10  text-slate-400 text-xl md:text-2xl"> 
